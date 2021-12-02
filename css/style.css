@@ -1,0 +1,60 @@
+body {
+  line-height: 1.6;
+  height: 100vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  font-weight: 700;
+}
+
+li {
+  line-height: 3;
+}
+
+img {
+  width: 100%;
+  border-radius: 1%;
+
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  font-size: 24pt;
+  font-weight: 700;
+}
+h3 {
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  padding: 0 200px 0 200px;
+  background-color: blanchedalmond;
+}
+
+.wrapper  {
+  background-color: burlywood;
+  display: grid;
+  justify-items: center;
+  text-align: left;
+  padding: 50px;
+  min-width: 350px;
+}
+
+#recipes {
+  text-align: center;
+  height: 100vh;
+}
+
+.description, .ingredients, .directions{
+  margin: 30px;
+  padding: 30px;
+  background: rgb(214, 214, 109);
+}
